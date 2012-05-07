@@ -1,0 +1,40 @@
+#+TITLE: HHelper -- A collection of helper functions for DaiaPHP and PicaRecord
+#+AUTHOR: David Maus
+#+EMAIL: maus@hab.de
+
+* About
+
+A collection of helper functions for DaiaPHP and PicaRecord.
+
+* Defined helper functions
+
+- =\HAB\Helper::complement()=
+
+  Return the complement of a function, that is a function that takes the same arguments as the
+  original function and has the same side-effect as the original function but returns a boolean with
+  the opposite truth value.
+
+- =\HAB\Helper::mapMethod()=
+
+  Return an array of the results of calling a method for each element of a sequence.
+
+- =\HAB\Helper::mapClone()=
+
+  Return an array with clones of each element in sequence.
+
+- =\HAB\Helper::some()=
+
+  Return TRUE if at least one element of a sequence matches a predicate.
+
+- =\HAB\Helper::every()=
+
+  Return TRUE if every element of a sequence fullfills a predicate.
+
+- =\HAB\Helper::flatten()=
+
+  Flatten a sequence.
+
+- =\HAB\Helper::constantly()=
+
+  Return function that takes any number of arguments, has no side-effect and constantly returns a
+  value.
